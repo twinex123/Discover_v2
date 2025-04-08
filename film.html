@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover. | Discover movies from all categories</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://kit.fontawesome.com/29ce918257.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  
+    <div class="navbar">
+        <a class="a_effect" href="" id="logo">DISCOVER.</a>
+        <a class="a_effect" href="index.html">Accueil</a>
+        <a class="a_effect" href="#">Mes favoris</a>
+        <a class="a_effect" href="#">Start discovering</a>
+        <div class="search">
+            <a href="#"><i class="fas fa-search"></i></a>
+        </div>
+        <div class="profile">
+            <a href="#"><i class="fas fa-user-circle"></i></a>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn"><i class="fas fa-chevron-down"></i></button>
+            <div class="dropdown-content">
+                <a href="#">Ajouter aux favoris</a>
+                <a href="#">Liker le film</a>
+                <a href="#">Indésirable</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="image-background"></div>
+    <div id="backdrop-overlay"></div>
+
+    <div class="film-content">
+        <img id="moviePoster" src=""></img>
+        <div class="films-infos">
+            <div class="tags">
+                <div class="tag">
+                    <span id="vote"></span>
+                </div>
+                <div class="tag">
+                    <span id="releaseDate"></span>
+                </div>
+            </div>
+            <div class="main-title">
+                <span id="movieTitle"></span>
+            </div>
+
+            <div class="overview">
+                <p id="film-overview"></p>
+            </div>
+        </div>
+    </div>
+
+
+
+  <script src="assets/js/film.js"></script>
+</body>
+</html>

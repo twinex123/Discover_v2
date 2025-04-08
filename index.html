@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover. | Discover movies from all categories</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://kit.fontawesome.com/29ce918257.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  
+    <div class="navbar">
+      <a class="a_effect" href="" id="logo">DISCOVER.</a>
+      <a class="a_effect" href="home.php">Accueil</a>
+      <a class="a_effect" href="#">Mes favoris</a>
+      <a class="a_effect" href="#">Start discovering</a>
+      <div class="search">
+          <a href="#"><i class="fas fa-search"></i></a>
+      </div>
+      <div class="profile">
+          <a href="#"><i class="fas fa-user-circle"></i></a>
+      </div>
+      <div class="dropdown">
+          <button class="dropbtn"><i class="fas fa-chevron-down"></i></button>
+          <div class="dropdown-content">
+              <a href="#">Ajouter aux favoris</a>
+              <a href="#">Liker le film</a>
+              <a href="#">Indésirable</a>
+          </div>
+      </div>
+  </div>
+
+  <header id="mobile_navbar">
+    <div class="burger-menu" id="burger-menu" onclick="toggleMenu()">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <nav id="nav-menu" class="nav-menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+  </header>
+
+  <video id="video-background" autoplay loop muted>
+    <source src="content/topgun.mp4" type="video/mp4">
+  </video>
+
+  <div class="content">
+    <div class="main-title">
+      TOP GUN :
+      <br>
+      MAVERICK
+    </div>
+    <div class="tags">
+      <div class="tag">
+        By <a href="">Joseph Kosinski</a>
+      </div>
+      <div class="tag">
+        2022
+      </div>
+      <div class="tag">
+        2h 10mn
+      </div>
+    </div>
+  </div>
+
+  <div class="toolbar">
+    <div class="tool">
+      <i class="fa-solid fa-volume-xmark" id="sound_icon"></i>
+    </div>
+    
+  </div>
+  
+  <div class="chevron">
+    <a href="#film_page"><i class="fa-solid fa-chevron-down"></i></a>
+  </div>
+
+  <div class="films_content" id="film_page">
+
+    <div class="films_container">
+      <h1>Tous les films à découvrir</h1>
+
+      <div class="films-container">
+
+      </div>
+    </div>
+
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
